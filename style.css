@@ -1,6 +1,6 @@
-* {
+/* {
   outline: red solid 1px;
-}
+}*/
 
 .container {
   display: grid;
@@ -15,6 +15,18 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+}
+
+.user-greeting {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: flex;
+  align-items: flex-end;
+}
+
+img {
+  height: 100px;
+  width: 100px;
 }
 
 .sidebar {
