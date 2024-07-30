@@ -2,6 +2,10 @@
   outline: red solid 1px;
 }
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -60,9 +64,8 @@
 
 .dashboard {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 100px 1fr;
   align-items: center;
-  justify-items: start;
 }
 
 .dashboard-img {
@@ -75,7 +78,7 @@
   width: 50px;
 }
 
-.navigation{
+.navigation {
   display: grid;
   grid-template-rows: 2fr 1fr;
   gap: 40px;
@@ -99,7 +102,7 @@
 }
 
 .project {
-  background-color: rgb(218, 218, 218);
+  background-color: whitesmoke;
   color: black;
   border-width: 0px 0px 0px 10px; 
   border-style: solid; 
