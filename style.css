@@ -19,6 +19,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  padding-left: 30px;
 }
 
 .search {
@@ -37,20 +38,64 @@ body {
   background-color: rgb(173, 173, 173);
   border-radius: 10px;
   height: 25px;
-  width: 300px;
+  width: 90%;
+}
+
+.user-info {
+  display: grid;
+  grid-template-columns: 25px 1fr 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+  font-size: 1.15rem;
+  justify-self: center;
+}
+
+.notification {
+  height: 25px;
+  width: 25px;
+}
+
+.user-avatar-small {
+  height: 75px;
+  width: 75px;
+  border-radius: 5000px;
 }
 
 .user-greeting {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 5px;
   align-items: end;
+  padding-bottom: 15px;
+}
+
+.greeting-salut {
+  font-size: 0.85rem;
+}
+
+.greeting-username {
+  font-size: 1.5rem;
 }
 
 .user-avatar {
   height: 100px;
   width: 100px;
   border-radius: 5000px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  align-items: center;
+  justify-items: center;
+}
+
+.button {
+  background-color: rgb(170, 170, 255);
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
 }
 
 .sidebar {
@@ -84,7 +129,6 @@ body {
   display: grid;
   grid-template-rows: 2fr 1fr;
   gap: 40px;
-  /*background-color: green;*/
 }
 
 .shortcut {
@@ -134,7 +178,7 @@ body {
   grid-row: 2 / 3;
 }
 
-.share,
+.share-img,
 .star {
   grid-row: 3 / 4;
   height: 20px;
@@ -145,6 +189,6 @@ body {
   grid-column: 2 / 3;
 }
 
-.share {
+.share-img {
   grid-column: 3 / 4;
 }
