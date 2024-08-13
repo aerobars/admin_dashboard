@@ -12,6 +12,8 @@ body {
   grid-template-rows: 1fr 4fr;
 }
 
+/* Header Section */
+
 .header {
   grid-column: 2 / 3;
   background-color: whitesmoke;
@@ -98,6 +100,8 @@ body {
   border-radius: 10px;
 }
 
+/* Sidebar Section */
+
 .sidebar {
   grid-row: 1 / 3;
   background-color: rgb(170, 170, 255);
@@ -139,20 +143,29 @@ body {
   font-size: 1.35rem;
 }
 
+/* Projects, Announcements, and Trending */
 
 .content {
   background-color: gray;
+  padding-left: 20px;
+  padding-top: 30px;
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
+/* Projects Section */
+
 .projects {
   grid-row: 1 / 3;
   display: grid;
   gap: 15px;
-  grid-template-rows: repeat(auto-fit, minmax(100px, 25%));
-  grid-template-columns: repeat(auto-fit, minmax(100px, 45%));
+  grid-template-rows: 1rem repeat(auto-fit, minmax(100px, 25%));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 30%));
+}
+
+.your-projects {
+  grid-column: 1/-1;
 }
 
 .project {
@@ -191,4 +204,10 @@ body {
 
 .share-img {
   grid-column: 3 / 4;
+}
+
+/* Announcements Section */
+
+.announcements {
+  display: ;
 }
