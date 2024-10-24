@@ -215,13 +215,20 @@ body {
   padding: 0 15px 15px 0;
 }
 
+.announcement {
+  color: black;
+}
+
 .announcements-container {
   background-color: whitesmoke;
   border-radius: 5px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Trending Section */
-
+/*
 .trending {
   display: grid;
   grid-template-rows: 1rem 1fr;
@@ -233,3 +240,4 @@ body {
   background-color: whitesmoke;
   border-radius: 5px;
 }
+*/
